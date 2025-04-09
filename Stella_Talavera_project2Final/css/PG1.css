@@ -1,0 +1,69 @@
+/* font-family: "Boldonse", system-ui;  font-family: "Bebas Neue", sans-serif; font-family: "Lobster", sans-serif; */
+
+html {background-color: darkslategrey;}
+
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body { 
+color: whitesmoke;
+font-size: 35px;
+font-family: "Boldonse", system-ui;
+text-align: center;
+margin: 25%;
+}
+
+.g {
+text-decoration: none;
+text-transform: uppercase;
+color: lightpink;
+animation-name: word1;
+animation-delay: 2s;
+animation-direction: normal;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+}
+
+
+.f {
+    text-decoration: none;
+    font-style: italic;
+    color: lightyellow;
+  animation-name: word2;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+
+}
+ 
+@keyframes word1 {
+    from{ 
+        margin-left: 50%; 
+    }
+    to{
+        margin-right: 0%;
+    }
+    from{ 
+        color: darkslategray;
+    }
+    to{
+      color: lightpink;
+    }
+}
+
+
+@keyframes word2 {
+
+    from{
+        color:darkslategray
+        }
+    to{ 
+        color:lightyellow
+    }
+ }
+
+ 

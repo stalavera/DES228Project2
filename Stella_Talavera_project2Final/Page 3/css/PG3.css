@@ -1,0 +1,53 @@
+/* font-family: "Boldonse", system-ui;  font-family: "Bebas Neue", sans-serif; font-family: "Lobster", sans-serif; */
+
+html {background-color: darkslategrey;}
+
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body { 
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: "Boldonse", system-ui;
+    text-align: center;
+    margin: 25%;
+}
+.J {
+    font-size: 35px;
+    color: lightpink;
+    font-family: "Boldonse", system-ui;
+    text-decoration: none; 
+}
+.J:hover { 
+color: lightpink;
+transition: 3s;
+transition-delay: 2s;
+
+}
+
+
+
+
+#greige { 
+    color: grey;
+    font-family: "Lobster", sans-serif;
+    font-size: 50px;
+    animation-name: word1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes word1 {
+
+    from{
+        color:darkslategray
+        }
+    to{ 
+        color:grey
+    }
+ }

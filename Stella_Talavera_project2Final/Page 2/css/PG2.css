@@ -1,0 +1,92 @@
+/* font-family: "Boldonse", system-ui;  font-family: "Bebas Neue", sans-serif; font-family: "Lobster", sans-serif; */
+
+html {background-color:  darkslategray;}
+
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body { 
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: "Boldonse", system-ui;
+    text-align: center;
+    margin: 25%;
+    animation-name: body2;
+    animation-duration: 5s;
+
+    }
+
+.W { 
+text-decoration: none;
+color: lightpink;
+animation-name: Word1;
+animation-duration: 2s;
+animation-direction: alternate-reverse;
+animation-delay: 1.2s;
+animation-iteration-count: infinite;
+}
+
+
+.F { 
+    text-decoration: none;
+    font-family: "Lobster", sans-serif;
+    color: lightyellow;
+    font-size: 50px;
+    animation-name: Word2;
+    animation-duration: 2.5s;
+    animation-direction: alternate-reverse;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+.N { 
+
+white-space: nowrap;
+animation-name: body2;
+animation-duration: 5s;
+animation-delay: 2s;
+}
+
+.N:hover {
+    transform: rotate(360deg);
+    transition-duration: 3s;
+    transition-delay: .5s;
+color: gray;
+
+}
+
+@keyframes body2 {
+    from {
+        color: darkslategray;
+    }
+    to{ 
+        color: whitesmoke;
+    }
+    
+}
+
+
+@keyframes Word1 {
+    from {
+        color: darkslategray;
+    }
+    to{ 
+        color: lightpink;
+    }
+    
+}
+
+
+@keyframes Word2 {
+    from {
+        color: darkslategray;
+    }
+    to{ 
+        color: lightyellow;
+    }
+    
+}
