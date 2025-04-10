@@ -1,0 +1,39 @@
+/* font-family: "Boldonse", system-ui;  font-family: "Bebas Neue", sans-serif; font-family: "Lobster", sans-serif; */
+
+html {background-color: darkslategrey;}
+
+body { 
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: "Boldonse", system-ui;
+    text-align: center;
+    margin: 25%;
+    animation-name: body2;
+    animation-duration: 5s;
+
+    }
+
+    .M {
+
+        text-decoration: none;
+        font-size: larger;
+        font-stretch: expanded;
+
+    }
+
+    .M:hover {
+        transform: rotate(360deg);
+        transition-duration: 3s;
+        transition-delay: .5s;
+                color:lightpink;
+    } 
+
+    @keyframes body2 {
+        from {
+            color: darkslategray;
+        }
+        to{ 
+            color: whitesmoke;
+        }
+        
+    }
